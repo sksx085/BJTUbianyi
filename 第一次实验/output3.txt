@@ -1,0 +1,19 @@
+[Start annotation] :/*
+ [test] : big niuniu
+[end annotation] : */ 
+[STR] :i
+[STR] :like
+[STR] :niuniu
+
+[Key words] : main
+[STR] :suck
+[Key words] : int
+[STR] :a
+[Special characters] : ;
+
+[number]:123
+[STR] :m
+[STR] :i
+[STR] :like
+[STR] :fuck
+

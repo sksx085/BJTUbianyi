@@ -1,0 +1,6 @@
+main(){
+	int a;
+	a = 100;
+	char c;
+	return 0;
+}

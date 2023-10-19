@@ -1,0 +1,21 @@
+[Key words] : main
+[Special characters] : (
+[Special characters] : )
+[Special characters] : {
+
+[Key words] : int
+[STR] :a
+[Special characters] : ;
+
+[STR] :a
+[calculating signs] := 
+[number]:100
+
+[STR] :char
+[STR] :c
+[Special characters] : ;
+
+[Key words] : return
+[number]:0
+
+[Special characters] : }

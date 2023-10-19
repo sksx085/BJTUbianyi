@@ -1,0 +1,17 @@
+[Start annotation] :/*
+hello 
+[end annotation] : */ 
+
+[Key words] : main
+
+[Key words] : int
+[STR] :a
+[Special characters] : ;
+
+[Key words] : return
+[number]:0
+
+[Key words] : void
+[STR] :dfs
+[Special characters] : {
+[Special characters] : }

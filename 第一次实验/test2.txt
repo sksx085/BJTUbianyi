@@ -1,0 +1,5 @@
+/* hello */
+main
+int a;
+return 0;
+void dfs{}

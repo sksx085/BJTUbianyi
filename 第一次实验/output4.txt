@@ -1,0 +1,16 @@
+[Inline comments] : // 
+[test] :  ouou has a small dick
+
+[Inline comments] : // 
+[test] :  i have a big niuniu 
+
+[Key words] : main
+[STR] :a
+[Key words] : void
+[number]:123
+[number]:526
+[Special characters] : )
+[Special characters] : {
+[Special characters] : }
+
+

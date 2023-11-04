@@ -10,15 +10,17 @@ string str,s;
 int flag = 0,amt = 0;
 
 
-void checkF();
+
 void checkS();
-void checkMUlT();
-void checkT_();
-void checkT();
-void checkVOC();
-void checkADD();
 void checkE();
 void checkE_();
+void checkT_();
+void checkT();
+void checkF();
+void checkADD();
+void checkMUlT();
+void checkVOC();
+
 
 
 
@@ -196,12 +198,23 @@ void checkE_(){
                         flag = 1;
                         output << "E_ goes ERROR!!!" << "\n";
                         output << "ERROR num is:" << amt << endl;
-                          
                     }
                 }
             }
+            else{
+                flag = 1;
+                output << "E_ goes ERROR!!!" << "\n";
+                output << "ERROR num is:" << amt << endl;
+            }
         }
     }
+        else if(s[amt] == ')' || s[amt] == '#')
+            return ;//rollback
+        else{
+            flag = 1;
+            output << "E_ goes ERROR!!!" << "\n";
+            output << "ERROR num is:" << amt << endl;
+        }
 }
 void checkS(){
     if(flag == 0){

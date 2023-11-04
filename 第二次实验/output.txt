@@ -1,0 +1,4 @@
+check S :	check V:	check E:	check T:	check F:	check E_:	check ADD:	check T:	check F:	check T_:	check MULT:	check F:	check T_:	
+legal
+check S :	check V:	check E:	check T:	check F:	check E_:	check ADD:	check T:	check F:	check T_:	check MULT:	check F:	check T_:	
+legal

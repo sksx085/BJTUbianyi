@@ -160,7 +160,7 @@ void computeFirstFollow()
 				}
 				else
 				{
-					if (inanalst(follow[num1],'e'))
+					if (inanalst(follow[num1], 'e'))
 					{
 						follow[num1].push_back('e');
 					}
@@ -215,7 +215,7 @@ void updateFollowSets()
 		{
 			for (int j = 3; j < gra[i].size(); j++)
 			{
-				if ((gra[i][j] >= 'A' && gra[i][j] <= 'Z'))
+				if ((isupper(gra[i][j])))
 				{
 					if (j < gra[i].size() - 1)
 					{
@@ -324,7 +324,7 @@ void processGrammarSymbols()
 						{
 							int num2 = Vncot[gra[i][k]];
 							// 如果当前非终结符的 FIRST 集合包含当前终结符
-							if (inanalst(first[num2],Vt[j]))
+							if (inanalst(first[num2], Vt[j]))
 							{
 								// 将文法产生式右部加入相应的表格中
 								while (k < gra[i].size() && gra[i][k] != '|')
@@ -357,8 +357,8 @@ void processGrammarSymbols()
 					}
 				}
 			}
-			else if (inanalst(first[num1],'e') &&
-					inanalst(follow[num1],Vt[j]))
+			else if (inanalst(first[num1], 'e') &&
+					 inanalst(follow[num1], Vt[j]))
 			{
 				// 如果空串在文法符号的 FIRST 集合中，并且当前终结符在 FOLLOW 集合中
 				table[num1][j].push_back('e'); // 将空串加入相应的表格中
